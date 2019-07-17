@@ -1,0 +1,10 @@
+in the linear probing if a collision exist we move it to another array by 1;
+in comparison to the chaining implementation, where on each array
+it contains a linkedlist whether it null or not transferring. if it has the
+same hashkey means the same array index in this situation, it will look
+first to the value of its key, if it is not the same then it will go to the next
+until it hit a non-null element on which it will place its value and key;
+
+update:
+in this section the collision will exist given the fact that it has different key but
+the same generated hash value, thereby it must return the key with the same value;
